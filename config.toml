@@ -1,0 +1,47 @@
+## Basic Configuration
+languageCode = "en"
+
+title = "Diary Deni"
+theme = "hyde-hyde"
+
+## Hugo Built-in Features
+# disqusShortname = "your-disqus-shortname"
+# googleAnalytics = "your-google-analytics-id"
+# enableRobotsTXT = true
+
+# summarylength = 30
+
+#paginate = 5
+
+## Site Settings
+[params]
+    author = "Deni Gunawan"
+    title = "Deni Gunawan"
+    description = "Java Web Developer"
+   # authorimage = "img/profil.jpeg"
+    dateformat = "January 2, 2006"
+
+    # sidebar, copyright & license
+    # logoimage = "/img/profil.png"
+    copyright = "Deni Gunawan"
+    since = 2020
+
+    # https://highlightjs.org
+    highlightjs = true
+    highlightjsstyle = "github"
+    
+    # please choose either GraphComment or Disqus or Utterances
+    #GraphCommentId = "..."
+    #UtterancesRepo = "..." # https://utteranc.es/
+    #UtterancesIssueTerm = "..." # pathname, url, title, og:title
+    #UtterancesTheme = "..." # github-light or github-dark
+
+    # Table of contents
+    #toc = none, "hugo", or "tocbot"
+
+## Social Accounts
+[params.social]
+    github = "artdengun"
+    instagram = "dengunnnnn"
+    linkedin = "in/deni-gunawan-93b5b412a/"
+    email = "denigunawan775@gmail.com"
