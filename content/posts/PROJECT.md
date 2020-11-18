@@ -156,6 +156,22 @@ weight: 10
   - Serial Number   : PC0HFHY6
   - Hostname        : 2017D00019
 
+-  Data **(24)** **STATUS = UNPAID**
+- LOKASI PENGERJAAN **GEDUNG PERMATA WTC 2**
+  - Lantai			: 25
+  - User			: Martin Herdika
+  - Serial Number   : PC0HFHGL
+  - Hostname        : 2017D00545
+
+
+-  Data **(25)** **STATUS = UNPAID**
+- LOKASI PENGERJAAN **GEDUNG PERMATA WTC 2**
+  - Lantai			: 24
+  - User			: Pipit Indriani
+  - Serial Number   : PC0HFHDB
+  - Hostname        : 2017D00161
+
+
 
 
 
