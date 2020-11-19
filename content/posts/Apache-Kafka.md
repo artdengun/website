@@ -10,7 +10,7 @@ weight: 10
 
 # Apa Itu Apache Kafka 
 Apache kafka adalah sistem untuk mengirim dan mengambil/menerima data secara realtime 
-![gambar](img/apachekafka.png)
+![gambar](apachekafka.png)
 # Beberapa Istilah Penting diapache kafka 
 
  - **Producer** merupakan proses atau sistem yang dapat mempublikasikan data ke suatu topik. 
