@@ -12,13 +12,16 @@ weight: 10
 Apache kafka merupakan salah satu aplikasi Message Broker yang secara garis besar digunakan untuk 
 mengirim dan mengambil/menerima data secara realtime,
 
+apache kafka memerlukan Apache Zookeeper tapi pada saat instalasi Zookper sudah ikut didalamnya. 
+
+apabila di production kita perlu menginstall terpisah zookeeper dan kafka masing masisng . 
 
 # Publish Subscribe 
 apa perlu menggunakan message broker? sangat perlu, kenapa? 
 misal kita punya Aplikasi A sebagai pengirimnya dan B sebagai penerimanya, ditengah jalan kita membutuhkan penerima baru 
 si C nah, tentunya kita perlu mencoding ulang Aplikasi A agar supaya bisa mengirim data ke C, tentunya hal ini membutuhkan
 waktu development baru, untuk menghindari hal ini kita bisa menggunakan **Message Broker** kita cukup kirim data ke Message Broker
-nah aplikasi yang membutuhkan data / mengirim data cukup Listen ke message broker , kita cukup kirim data sekali, aplikasi yang membutuhkan data hanya listen 
+plikasi yang membutuhkan data / mengirim data cukup Listen ke message broker , kita cukup kirim data sekali, aplikasi yang membutuhkan data hanya listen 
 di message broker .  
 
 # Producer dan Consumer
@@ -29,11 +32,13 @@ di message broker .
 
 # Arsitektur Kafka 
  Teknologi Kafka
- - producer adalah  aplikasi yang mengirim data 
- - consumer  adalah aplikasi yang menerima data 
- - connectors adalah integrasi dengan existing aplikasi, contoh DB,  misal kita mau setiap data yang berubah maka akan dikirim ke kafka 
- - Stream proccesor adalah untuk mengolah data berupa stream -> stream data yang mengalir terus tanpa kita tahu kapan berhenti datanya, sekali kita mensubscibe data kita tidak tahu kapan berhentinya
  
+   - **producer** adalah  aplikasi yang mengirim data 
+   - **consumer**  adalah aplikasi yang menerima data 
+   - **connectors** adalah integrasi dengan existing aplikasi, contoh DB,  misal kita mau setiap data yang berubah maka akan dikirim ke kafka 
+   - **Stream** proccesor adalah untuk mengolah data berupa stream -> stream data yang mengalir terus tanpa kita tahu kapan berhenti datanya, sekali kita mensubscibe data kita tidak tahu kapan berhentinya
+   - **Cluster** merupakan kelompok dari beberapa aplikasi/borker yang saling bekerjasama.
+
 
 # Beberapa Istilah Penting diapache kafka 
 
