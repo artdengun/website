@@ -9,6 +9,7 @@ weight: 10
 ---
 
 # Apa Itu Apache Kafka 
+<hr>
 Apache kafka merupakan salah satu aplikasi Message Broker yang secara garis besar digunakan untuk 
 mengirim dan mengambil/menerima data secara realtime,
 
@@ -17,6 +18,7 @@ apache kafka memerlukan Apache Zookeeper tapi pada saat instalasi Zookper sudah 
 apabila di production kita perlu menginstall terpisah zookeeper dan kafka masing masisng . 
 
 # Publish Subscribe 
+<hr>
 apa perlu menggunakan message broker? sangat perlu, kenapa? 
 misal kita punya Aplikasi A sebagai pengirimnya dan B sebagai penerimanya, ditengah jalan kita membutuhkan penerima baru 
 si C nah, tentunya kita perlu mencoding ulang Aplikasi A agar supaya bisa mengirim data ke C, tentunya hal ini membutuhkan
@@ -25,12 +27,14 @@ plikasi yang membutuhkan data / mengirim data cukup Listen ke message broker , k
 di message broker .  
 
 # Producer dan Consumer
+<hr>
 - Producer adalah pihak/aplikasi yang mengirim{publish} data ke Message Broker
 - Consumer adalah pihak/aplikasi yang mengambil{subscribe} data ke Message Broker
 - Aplikasi bisa bertindak sebagai Producer sekaligus Consumer Secara Bersamaan
 
 
 # Arsitektur Kafka 
+<hr>
  Teknologi Kafka
  
    - **producer** adalah  aplikasi yang mengirim data 
@@ -40,7 +44,18 @@ di message broker .
    - **Cluster** merupakan kelompok dari beberapa aplikasi/borker yang saling bekerjasama.
 
 
+# TOPIC 
+<hr>
+topic / table di database
+ 
+ - Data di kafka disimpan dalam topic 
+ - Analogi yang dekat untuk Topic, jika di database adalah Table
+ - Data di Topic tidak bisa diubah
+
+
+
 # Beberapa Istilah Penting diapache kafka 
+<hr>
 
  - **Producer** merupakan proses atau sistem yang dapat mempublikasikan data ke suatu topik. 
  - **Consumer** merupakan proses atau sistem yang dapat melakukan subscription ke satu atau lebih topik dan mengolah data-data dari topik tersebut.
