@@ -1,10 +1,10 @@
 ---
-title: "Apache Kafka"
+title: "Java Object Oriented"
 date: 2020-11-19T19:21:45+07:00
-linktitle: Apache Kafka
-title: Apache Kafka
-categories: [ "Java", "Apache Kafka"]
-tags: ["Linux", "Java","Message Broker", "SpringBoot"]
+linktitle: Java Object Oriented
+title: Java Object Oriented
+categories: [ "Java", "OOP"]
+tags: ["Linux", "Java","SpringBoot"]
 weight: 10
 ---
 

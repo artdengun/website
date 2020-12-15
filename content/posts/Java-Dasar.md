@@ -1,10 +1,10 @@
 ---
-title: "Apache Kafka"
+title: "Java Dasar"
 date: 2020-11-19T19:21:45+07:00
-linktitle: Apache Kafka
-title: Apache Kafka
-categories: [ "Java", "Apache Kafka"]
-tags: ["Linux", "Java","Message Broker", "SpringBoot"]
+linktitle: Java Dasar
+title: Java-Dasar
+categories: [ "Java", "Dasar"]
+tags: ["Linux", "Java","SpringBoot"]
 weight: 10
 ---
 
